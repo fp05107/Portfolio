@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins&family=Source+Code+Pro:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
-<body>
-    
+
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
+
+    </header>
+    <main>
+        <section class="section sec2 about" id="about"></section>
+        <section class="section sec3 portfolio" id="portfolio"></section>
+        <section class="section sec4 blogs" id="blogs"></section>
+        <section class="section sec5 contact" id="contact"></section>
+    </main>
+    <div class="controlls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="control control-2" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control control-3" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control control-4" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control control-5" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
 </body>
+
 </html>
+<script src="app.js"></script>
