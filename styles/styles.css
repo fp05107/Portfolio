@@ -7,8 +7,8 @@
 
 :root {
   --color-primary: #191d2b;
-  /* --color-secondary: #27AE60; */
-  --color-secondary: blue;
+  --color-secondary: #27AE60;
+  /* --color-secondary: blue; */
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -24,8 +24,8 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  /* --color-secondary: #F56692; */
-  --color-secondary: rgb(59, 27, 202);
+  --color-secondary: #F56692;
+  /* --color-secondary: rgb(59, 27, 202); */
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;

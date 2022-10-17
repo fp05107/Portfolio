@@ -11,3 +11,7 @@
         document.body.classList.toggle("light-mode");
     })
 })();
+
+document.getElementsByClassName('btn-con').addEventListener('click',function(){
+    
+})
